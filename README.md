@@ -52,7 +52,7 @@ The app defines following CRUD APIs.
 | Method | Url | Decription | Sample Valid Request Body | 
 | ------ | --- | ---------- | --------------------------- |
 | GET  | /mascota| Return all pets| [JSON](#signup) |
-| GET  | /mascota/{id}| Return all pets | [JSON](#signup) |
+| GET  | /mascota/{id}| Return pet for by id | [JSON](#signup) |
 | POST   | /mascota | Create new pet| [JSON](#signin) |
 | PUT  | /mascota/{id}| if the pet exists then update| [JSON](#signup) |
 | DELETE   | /mascota/{id}|  if the pet exists then delete| String |
